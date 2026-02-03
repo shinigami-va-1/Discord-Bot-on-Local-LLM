@@ -1,0 +1,40 @@
+# Discord Configuration
+DISCORD_TOKEN=TOKEN
+PREFIX=!
+
+# Proxy Settings (для обхода блокировок Discord в рф)
+USE_PROXY=false
+PROXY_URL=socks5://127.0.0.1:10808
+
+# LM Studio Configuration
+LM_STUDIO_URL=http://localhost:1234/v1
+LM_STUDIO_MODEL=LOCAL_LLM
+
+# Generation Parameters
+MAX_TOKENS=350
+TEMPERATURE=0.7
+TOP_P=0.9
+
+# Context Management
+MAX_CONTEXT_MESSAGES=5
+CONTEXT_TIMEOUT=3600
+
+# System Prompt
+SYSTEM_PROMPT=Используй форматирование Discord когда это уместно. Если не знаешь ответа, честно скажи об этом.
+
+# Roles (comma-separated role IDs)
+ADMIN_ROLE_IDS=
+MODERATOR_ROLE_IDS=
+
+# Rate Limiting
+RATE_LIMIT_MESSAGES=5
+RATE_LIMIT_PERIOD=60
+
+# Logging
+LOG_LEVEL=INFO
+LOG_FILE=bot.log
+
+# Embed Colors (hex without 0x)
+EMBED_COLOR=00ff00
+ERROR_COLOR=ff0000
+WARNING_COLOR=ffaa00
